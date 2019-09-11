@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#masthead {
+    background-color: beige;
+    color: black;
+    width: 980px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 980px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, tr {
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+table#train-schedules tr:nth-child(odd) {
+    background-color: gray;
+}
+
+table#train-schedules tr:nth-child(even) {
+    background-color: #fff;
+}
+
+thead {
+    background: blue;
+    color: white;
+    text-align: left;
+}
